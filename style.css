@@ -1,0 +1,7 @@
+body { font-family: 'Arial'; }
+canvas { background-color: #000;}
+.control { display: inline-block; margin-right: 5px; height: 143px;}
+.control label { margin-bottom: 20px; display: block; font-size: 18px; text-transform: uppercase;}
+.checkbox { vertical-align: bottom;}
+.checkbox label { margin-bottom: 10px; }
+.checkbox input {margin-top: 0px; margin-bottom: 10px;}

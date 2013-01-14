@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style type="text/css">
+    canvas{border:#666 1px solid;}
+  </style>
+  <script src="js/jquery.js" type="text/javascript"></script>
+  <script src="js/slider.js" type="text/javascript"></script>
+  <script src="js/animate.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/ui-darkness/jquery-ui-1.9.2.custom.css">
+</head>
+<body>
+  <center>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <br>
+    <div id="controls">
+      <div class="checkbox control">
+        <label>Squares</label>
+        <input type="checkbox" id="squares" checked />
+        <label>Circles</label>
+        <input type="checkbox" id="circles" />
+      </div>
+      <div class="control">
+        <label>Chaos</label>
+        <div id="boxes" class="ui-slider-handle"></div>
+      </div>
+      <div class="control">
+        <label>Brightness</label>
+        <div id="colors" class="ui-slider-handle"></div>
+      </div>
+      <div class="control">
+        <label>Size</label>
+        <div id="size" class="ui-slider-handle"></div>
+      </div>
+      <div class="control">
+        <label>Framerate</label>
+        <div id="rate" class="ui-slider-handle"></div>
+      </div>
+    </div>
+  </center>
+</body>  
+</html> 
